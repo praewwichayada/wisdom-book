@@ -26,7 +26,7 @@ public class BookController {
     @GetMapping("/add")
     public String getAddPage() {
         return "book-add";
-    }
+    } // book-add.html
 
     @PostMapping("/add")
     public String addBook(@ModelAttribute Book book, Model model) {
